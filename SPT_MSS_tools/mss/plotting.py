@@ -13,7 +13,7 @@ def plot_trajectory(traj, track_id=None):
 
     if track_id is not None:
         plt.title(f'Trajectory of Track {track_id}')
-
+    plt.show()
 
 def plot_gamma_vs_v(v_list, gamma_v_list, sMSS):
 
@@ -34,3 +34,4 @@ def plot_gamma_vs_v(v_list, gamma_v_list, sMSS):
     plt.ylabel('gamma_v')
     plt.title('gamma_v vs v')
     plt.legend()
+    plt.show()
